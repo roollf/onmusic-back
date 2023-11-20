@@ -327,5 +327,5 @@ app.get('/songs', (request, response) => {
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
+    console.log(`Aplicação iniciada na porta ${port}`)
 })
