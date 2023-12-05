@@ -2,31 +2,36 @@
 
 ## OnMusic 🎵
 
-Este é um projeto em desenvolvimento de uma aplicação de música, semelhante ao Spotify, que está sendo criado utilizando uma variedade de tecnologias da web. Este repositório representa o *backend* do projeto [OnMusic Frontend](https://github.com/roollf/onmusic-front).
+Este é o repositório do *backend* do projeto OnMusic, uma aplicação de música semelhante ao Spotify. Este *backend* é complementado pelo [OnMusic Frontend](https://github.com/roollf/onmusic-front).
 
 ## Funcionalidades ⚙️
 
-Nesta fase inicial de desenvolvimento do backend, o projeto inclui as seguintes rotas:
+O backend do OnMusic oferece as seguintes funcionalidades:
 
 ### Playlists
-- Listagem de playlists. (**GET**)
-- Detalhes de uma playlist. (**GET**)
-- Cadastro de uma playlist. (**POST**)
-- Inserção e remoção de músicas na playlist. (**PUT** e **DELETE**)
+- **Listagem de Playlists**: Endpoint para obter todas as playlists disponíveis. (**GET**)
+- **Detalhes de uma Playlist**: Endpoint para visualizar detalhes específicos de uma playlist, incluindo as músicas contidas. (**GET**)
+- **Cadastro de Playlist**: Endpoint para criar uma nova playlist. (**POST**)
+- **Atualização de Playlist**: Endpoint para adicionar ou remover músicas de uma playlist existente. (**PUT** e **DELETE**)
+
+### Álbuns
+- **Listagem de Álbuns**: Endpoint para obter todos os álbuns disponíveis. (**GET**)
+- **Detalhes de um Álbum**: Endpoint para visualizar detalhes específicos de um álbum, incluindo as músicas contidas. (**GET**)
 
 ### Usuários
-- Cadastro de novos usuários. (**POST**)
-- Login. (**GET**)
-- Edição de informações do usuário. (**PUT**)
+- **Cadastro de Usuários**: Endpoint para criar novos usuários. (**POST**)
+- **Login**: Endpoint para realizar o login de usuários. (**GET**)
+- **Edição de Perfil**: Endpoint para editar as informações do perfil do usuário. (**PUT**)
 
 ### Músicas
-- Busca de músicas. (**GET**)
+- **Busca de Músicas**: Endpoint para buscar músicas com base em um termo fornecido. (**GET**)
 
 ## Tecnologias 🛠
 
 - Javascript.
 - Node.js.
 - Express.js.
+- MongoDB.
 
 ## Equipe 🎓
 
